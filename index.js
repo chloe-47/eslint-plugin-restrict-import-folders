@@ -111,7 +111,6 @@ function create(context) {
   return {
     ImportDeclaration(node) {
       const imported = node.source.value;
-      console.log('imported ', imported, ' from ', filename);
       const isAllowed = canImportFrom.some((target) => match(imported, target));
       if (!isAllowed) {
         report({
