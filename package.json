@@ -1,6 +1,6 @@
 {
   "name": "@chloe-47/eslint-plugin-restrict-import-folders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Restrict which folders can import from which other folders",
   "main": "index.js",
   "scripts": {
