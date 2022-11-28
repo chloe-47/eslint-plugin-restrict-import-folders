@@ -1,0 +1,14 @@
+{
+  "name": "@chloe-47/eslint-plugin-restrict-import-folders",
+  "version": "1.0.0",
+  "description": "Restrict which folders can import from which other folders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chloe-47 <dear.chloebarker@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "peerDependencies": {
+    "eslint": "^8.19.0"
+  }
+}
